@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 
-const DB = "mongodb://127.0.0.1:27017/admin";
+const DB = "mongodb+srv://coderx_abhay:zobkyVOWx7sJz0tJ@longdrive.r7fj4ln.mongodb.net/LongDrive?retryWrites=true&w=majority";
 
 const connectDb = async () => {
     try{
